@@ -9,9 +9,14 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "bundleIdentifier": "com.yourname.mymapboxapp"
     },
     "android": {
+      "package": "com.yourname.mymapboxapp",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -26,6 +31,12 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsDownloadToken": "sk.eyJ1IjoibXVoYW1tYWRxYXppIiwiYSI6ImNtZWkya2tzeTAzejQya3F0M212aWkxdmIifQ.y2688HHZhIoNAwRycWoByw"
+        }
+      ],
       "expo-router",
       [
         "expo-splash-screen",
