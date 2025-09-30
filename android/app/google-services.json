@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "132183145885",
+    "project_id": "mapbox-e53b0",
+    "storage_bucket": "mapbox-e53b0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132183145885:android:ad70efc27d07ac10f2c374",
+        "android_client_info": {
+          "package_name": "com.ahmad.mymapboxapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClcQ09HKePfPzKexN2rj5TrN1Uvng4ktA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
