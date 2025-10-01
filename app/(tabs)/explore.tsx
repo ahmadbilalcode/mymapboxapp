@@ -35,5 +35,8 @@ const styles = StyleSheet.create({
     flex: 1,
   },
 });
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 102ad9594e3c0fb76dc800421cfae18fa61af6d5
